@@ -5,14 +5,16 @@ using namespace std;
 
 int main()
 {
+	int i;
 	ifstream myfile("tinypix.ppm");
 	if (myfile.is_open())
 	{
-		int i;
-		while (i < i - 1, i++)
+		while (myfile.good() == true)
 		{
-			getline(read,i);
+			string readFile;
+			getline(myfile, readFile);
+			cout << readFile << endl;
 		}
 	}
 	return 0;
-}
+} 
