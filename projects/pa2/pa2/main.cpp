@@ -5,16 +5,20 @@ using namespace std;
 
 int main()
 {
-	int i;
-	ifstream myfile("tinypix.ppm");
-	if (myfile.is_open())
+	ifstream myfile;
+	myfile.open("tinypix.ppm");
+	if (myfile.fail())
 	{
-		while (myfile.good() == true)
+		cout << "The file does not work" << endl;
+	}
+	else
+	{
+		string readfile;
+		while (getline(myfile, readfile))
 		{
-			string readFile;
-			getline(myfile, readFile);
-			cout << readFile << endl;
+			cout << readfile << endl;
 		}
+		myfile.close();
 	}
 	return 0;
 } 
