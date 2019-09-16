@@ -20,3 +20,9 @@ managed to do did not feel like work but something more fulfilling.
 I feel like this assignment came at an awkward time. Since the assignment was due while you were out of town, I was not able to ask
 the final questions that I had in person which is my preferred method. However, I realize now that a well-written e-mail or asking
 a tutor or a forum post would have worked as well.
+
+Here's the link to the LICEcap photo.
+https://github.com/jayrevolinsky/2019-fall-cs112/blob/master/projects/pa2/Project%20%232%20Capture.gif
+
+Here's a link to one of the youtube videos that I found helpful.
+https://www.youtube.com/watch?v=lzxWNtjii8U
