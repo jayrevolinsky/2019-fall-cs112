@@ -16,3 +16,8 @@ rut. We concluded that I should use the code from lecture as my jumping-off poin
 
 I went from feeling lost because I could not deal with the roadblocks that come with coding to understanding how to engage with other programmers in a coherent discourse where they can help me and I can effectively explain the issue that I am having. The excitement of discovery that I had with project #2 was magnified once I managed to overcome the issues I was having in project #3. I feel more competent as a programmer, not just because I understand how a new function works but also since I feel like if I run into problems in the future I will be able to help myself or know how to ask for the help that I need.
 
+```
+Here's the link to LICECap GIF for PA #3: projects/pa3/Project #3 Capture.gif
+
+```
+
