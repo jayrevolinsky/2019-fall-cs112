@@ -134,6 +134,7 @@
   <ItemGroup>
     <None Include="blocks.ppm" />
     <None Include="bunny.ppm" />
+    <None Include="output.ppm" />
     <None Include="tinypix.ppm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

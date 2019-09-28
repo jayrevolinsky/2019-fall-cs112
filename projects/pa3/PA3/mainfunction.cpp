@@ -13,12 +13,12 @@ int main()
 {
 	string readFile;
 	string writeFile;
-	cout << "Enter the name of the file you want to read from: " << endl; //UserInput
+	cout << "Enter source file: " << endl; //UserInput
 	cin >> readFile;
-	cout << "Enter the name of the file that you want to write to: " << endl; //FileOutput
+	cout << "Enter destination file " << endl; //FileOutput
 	cin >> writeFile;
 	HelperFunctions(readFile, writeFile);
-	cout << "Edit completed" << endl;
+	cout << "Program complete" << endl;
 
 	return 0;
 }

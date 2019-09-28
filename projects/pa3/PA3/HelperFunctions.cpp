@@ -15,8 +15,18 @@ void HelperFunctions(string userInput, string fileOutput)
 	ofstream showOutput{ fileOutput };
 	vector<string> imageData = readFile(userInput);
 	string readImage;
-	int i;
+	int i = 0;
 	int j;
+
+	/*
+	for (j = 3; j < imageData.size(); j++)
+	{
+	string valueSpace = " ";
+	str.insert(37, " ");
+	}
+	*/
+	
+	
 
 	showOutput << imageData[0] << endl << imageData[1] << endl << imageData[2] << endl;
 
@@ -26,7 +36,7 @@ void HelperFunctions(string userInput, string fileOutput)
 		getline(sortValues, readImage);
 		istringstream rowValues{ readImage }; //tell the difference between rows
 
-		while (rowValues.good == true) //read rows until finished
+		while (rowValues.good() == true) //read rows until finished
 		{
 			getline(rowValues, readImage, ' ');
 			if (readImage == "" || readImage == " ") //look for spaces
